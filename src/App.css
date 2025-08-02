@@ -1,54 +1,25 @@
-.login-container {
-  width: 300px;
-  margin: 100px auto;
-  padding: 25px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  border-radius: 8px;
-  background-color: #eaf6ff; /* light blue background */
-  text-align: center;
+/* Make entire page yellow */
+body, html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  background-color: yellow;
 }
 
-h1 {
-  margin-bottom: 20px;
-  color: #2c3e50; /* dark header */
+/* Center content */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
-.form-group {
-  margin-bottom: 15px;
-  text-align: left;
+/* Text styles */
+.red-text {
+  color: red;
 }
 
-label {
-  display: block;
-  margin-bottom: 5px;
-  font-weight: bold;
-  color: #34495e; /* dark slate */
-}
-
-input {
-  width: 100%;
-  padding: 8px;
-  border-radius: 4px;
-  border: 1px solid #a6c8e0; /* soft blue border */
-  background-color: #ffffff;
-}
-
-button {
-  width: 100%;
-  padding: 10px;
-  background-color: #0077b6; /* rich blue */
-  color: white;
-  border: none;
-  border-radius: 4px;
-  cursor: pointer;
-}
-
-button:hover {
-  background-color: #005f87; /* darker blue on hover */
-}
-
-p {
-  margin-top: 15px;
-  font-weight: bold;
-  color: #2c3e50; /* same as heading */
+.green-text {
+  color: green;
 }
